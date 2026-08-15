@@ -1,6 +1,6 @@
 github just says me to add README, but just to be sure some funny things i need to explain here
 
-| FIRST
+| FIRST * SKIP THIS
   that triple whopper was really good, ill make some updates sooner maybe.
  | FIRST.TWO
    i also was been eating fries and my fingers got kinda greasy so code can be just strange, that's normal
