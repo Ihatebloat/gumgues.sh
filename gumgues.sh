@@ -7,13 +7,13 @@ UNUM=$(gum input --char-limit="2" --header="Guess a number from 0 to 99" --promp
 if [ -z "$UNUM" ]; then
 exit
 fi
-if ((NUM > UNUM)); then
+if ((UNUM > NUM)); then
 echo "Your num is bigger than the random one, $UNUM"
 TRIES=$((TRIES + 1));
-elif ((NUM < UNUM)); then
+elif ((UNUM < NUM)); then
 echo "Your num is smaller than the random one, $UNUM"
 TRIES=$((TRIES + 1));
-elif ((NUM == UNUM)); then
+elif ((UNUM == NUM)); then
 echo "Your num is correct! $NUM"
 TRIES=$((TRIES + 1))
 echo "You guessed it in $TRIES tries"
