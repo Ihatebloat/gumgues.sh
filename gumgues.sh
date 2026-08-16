@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 clear
 NUM=$((RANDOM % 100))
 TRIES=0
