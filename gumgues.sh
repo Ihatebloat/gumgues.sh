@@ -9,7 +9,7 @@ exit
 fi
 if ((NUM > UNUM)); then
 echo "Your num is bigger than the random one, $UNUM"
-TRIES=$(( "$TRIES" + 1 ));
+TRIES=$((TRIES + 1));
 elif ((NUM < UNUM)); then
 echo "Your num is smaller than the random one, $UNUM"
 TRIES=$((TRIES + 1));
